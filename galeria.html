@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="icon" href="logo.png" type="image/png">
+</head>
+<body style="font-family: Verdana;">
+    <style>
+        body{
+            background-image: url(img/bg2.gif);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        table{
+            border-collapse: collapse;
+            border: none;
+            overflow: hidden;
+            margin: auto;
+            background: linear-gradient( #FFFFFF, #e6e5e5);
+            box-shadow: 15px 5px 15px rgba(0, 0, 0, 0.3);
+        }
+        td, th{
+            border: none;
+        }
+        .zoom {
+            padding: 2%;
+            transition: transform .2s; /* Animation */
+            margin: 0 auto;
+        }    
+        .zoom:hover {
+            transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+        .botao_flutuante{
+            position: fixed;
+            bottom: 2%;
+            margin-left: 2%;
+            border: none;
+            padding: 15px 20px;
+            z-index: 1000;
+        }
+    </style>
+    <br>
+    <center>
+        <br>
+        <header>
+            <table border="hidden" style="border-radius: 70px;" width="70%" cellpadding="20" bgcolor="white" class="grade">
+                <th>
+                    <div class="zoom">
+                        <center>
+                        <a href="historia.html">
+                            <img src="historia.png" width="40%" style="margin-left: 120px;">
+                        </a>
+                    </div>
+                </th>
+                <th>
+                    <center>
+                    <a href="index.html">
+                        <img src="goku_parado.png" width="40%">
+                    </a>
+                </th>
+                <th>
+                    <center>
+                    <img src="Galeria.png" width="60%" style="margin-right: 120px; margin-top: 9px;">
+                </th>
+            </table>
+        </header>
+        <br>
+    </center>
+    <main>
+        <table border="hidden" style="border-radius: 20px" width="70%" cellpadding="30px" bgcolor="white" class="grade">
+            <center>
+            <td>
+                <h2>Galeria:</h2>
+                    <div class="zoom">
+                        <a href="IMG_6253.jpg">
+                            <center><img src="img/IMG_6253.jpg" width="80%" >
+                        </a>
+                    </div>
+                    <div class="zoom">
+                        <a href="IMG_6251.jpg">
+                            <center><img src="IMG_6251.jpg" width="80%">
+                        </a>
+                    </div>
+
+                    <div class="zoom">
+                        <a href="IMG_6252.jpg">
+                            <center><img src="IMG_6252.jpg" width="80%">
+                        </a>
+                    </div>
+                    <div class="zoom">
+                        <a href="IMG_6244.jpg">
+                            <center><img src="IMG_6244.jpg" width="80%">
+                        </a>
+                    </div>
+
+                    <div class="zoom">
+                        <a href="IMG_6254.jpg">
+                            <center><img src="IMG_6254.jpg" width="80%">
+                        </a>
+                    </div>
+                    <div class="zoom">
+                        <a href="IMG_6256.jpg">
+                            <center><img src="IMG_6256.jpg" width="80%">
+                        </a>
+                    </div>
+
+                    <div class="zoom">
+                        <a href="IMG_6257.jpg">
+                            <center><img src="IMG_6257.jpg" width="80%">
+                        </a>
+                    </div>
+                    <div class="zoom">
+                        <a href="IMG_6250.jpg">
+                            <center><img src="IMG_6250.jpg" width="80%">
+                        </a>
+                    </div>
+
+                    <div class="zoom">
+                        <a href="IMG_6245.jpg">
+                            <center><img src="IMG_6245.jpg" width="80%">
+                        </a>
+                    </div>
+                    <div class="zoom">
+                        <a href="IMG_6246.jpg">
+                            <center><img src="IMG_6246.jpg" width="80%">
+                        </a>
+                    </div>
+            </td>
+        </center>
+        </table>
+        <div class="botao_flutuante">
+            <a href="contact.html">
+                <img src="contact_icon.jpg" width="50%">
+            </a>
+        </div>
+    </main>
+    <h4 style = "color: black; font-family: Verdana;"><center>
+        Desenvolvido por: João Reis, 
+                            Miguel Santos e 
+                            Francisco Carvalho
+                                <span>
+                                    &copy;
+                                </span>
+        |Todos os direitos reservados
+    </h4>
+</body>
+</html>
